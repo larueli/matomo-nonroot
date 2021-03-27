@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ ! $(ls -A /var/www/html) ]; then
+if [ ! $(ls -A /var/www/html/config) ]; then
     cd /tmp
     unzip matomo-${MATOMO_VERSION}.zip
     mv -f matomo/config/* /var/www/html/config/
