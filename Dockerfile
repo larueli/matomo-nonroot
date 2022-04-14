@@ -1,6 +1,6 @@
-FROM larueli/php-base-image:8.0
+FROM larueli/php-base-image:8.1
 
-ARG MATOMO_VERSION=4.7.1
+ARG MATOMO_VERSION=4.9.0
 ENV MATOMO_VERSION=${MATOMO_VERSION}
 
 USER 0
